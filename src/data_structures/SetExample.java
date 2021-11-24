@@ -29,6 +29,12 @@ public class SetExample {
         System.out.println(difference(list1,list2));
         System.out.println(difference(list2,list1));
         System.out.println((intersection(list1,list2)));
+
+        int number = 10;
+        Integer number2 = 4;
+
+        number2 = new Integer(5); //creeaza obiect
+
     }
 
     private static Set<Integer> union(List<Integer> list1, List<Integer> list2) {

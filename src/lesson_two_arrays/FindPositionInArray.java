@@ -7,8 +7,8 @@ package lesson_two_arrays; //Return position of element x in arr; if appear mult
  */
 public class FindPositionInArray {
     public static void main(String[] args) {
-        int x = -10;
-        int[] diana = new int[]{5,9,-10,11,55,24,153,5,-10};
+        int x = 15;
+        int[] diana = new int[]{1, 2, 3, 8, 7, 8};
         System.out.println(findPosition(x, diana));
     }
 
@@ -17,6 +17,7 @@ public class FindPositionInArray {
         for (int i =0; i<arrGen.length; i++){
             if(arrGen[i]==x){
                 lastPos = i+1;
+                return lastPos;
             }
         }
         return lastPos;
