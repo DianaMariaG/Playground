@@ -1,7 +1,5 @@
-package Lesson_four_strings;
+package lesson_four_strings;
 //Check the number of occurrences of a string s1 in another string s2
-
-import java.util.Arrays;
 
 /**
  * words = "ncabcouabcpmabchgab"
@@ -23,7 +21,7 @@ public class OccurencesOfSubstring {
         int count = 0;
         boolean checkSubstring = false;
         for(int i = 0; i<phrase.length()-dependent.length(); i++){
-            for(int j = 0; j<dependent.length();j++){
+            for(int j = 0; j<dependent.length(); j++){
                 if(phrase.charAt(i+j) != dependent.charAt(j)) { //daca caracterul cu indicele (i+j)
                     checkSubstring = false;
                     break; //nu mai executa nimic din al 2-lea for (25-32)

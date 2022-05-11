@@ -1,4 +1,4 @@
-package Lesson_four_strings;
+package lesson_four_strings;
 // Check if a given string is a palindrome
 /**
  * letters = "abcba"

@@ -1,4 +1,4 @@
-package Lesson_four_strings;
+package lesson_four_strings;
 // Given a string, return another string that contains only the vowels in reverse order
 /**
  * result = "","o","oa"

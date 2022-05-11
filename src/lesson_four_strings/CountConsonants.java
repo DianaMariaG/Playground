@@ -1,4 +1,4 @@
-package Lesson_four_strings;
+package lesson_four_strings;
 // Return the number of consonant from a given string - do not declare all the consonants - the string has vowels, consonant and digits
 /**
  * count = 0,1,2 => return 2

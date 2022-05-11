@@ -1,4 +1,4 @@
-package Lesson_four_strings;
+package lesson_four_strings;
 import java.util.*;
 /**
  * Generate a string following the fibonacci sequence with first x numbers

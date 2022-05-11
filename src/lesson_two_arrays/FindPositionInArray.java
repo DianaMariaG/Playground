@@ -14,9 +14,9 @@ public class FindPositionInArray {
 
     public static int findPosition(int x, int[] arrGen) {
         int lastPos =-1;
-        for (int i =0; i<arrGen.length; i++){
-            if(arrGen[i]==x){
-                lastPos = i+1;
+        for (int i = 0; i < arrGen.length; i++){
+            if(arrGen[i] == x){
+                lastPos = i + 1;
                 return lastPos;
             }
         }

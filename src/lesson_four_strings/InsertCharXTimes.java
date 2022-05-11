@@ -1,5 +1,4 @@
-package Lesson_four_strings;
-import java.util.*;
+package lesson_four_strings;
 // Given a string str, 2 chars c1 and c2 and an integer x - insert after each c1 of str the char c2 for x times
 /**
  * result = "","c","chzzz","chzzzi","chzzzihzzz","chzzzihzzzl","chzzzihzzzli","chzzzihzzzlim","chzzzihzzzlimb","chzzzihzzzlimba","chzzzihzzzlimbar"

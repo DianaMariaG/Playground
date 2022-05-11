@@ -1,4 +1,4 @@
-package Lesson_four_strings;
+package lesson_four_strings;
 // Return the number of characters in a string (2 methods)
 /**
  * count = 0,1,2,3,4,5,6 => return 6

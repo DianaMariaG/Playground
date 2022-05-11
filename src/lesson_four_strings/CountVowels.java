@@ -1,4 +1,4 @@
-package Lesson_four_strings;
+package lesson_four_strings;
 // Create a method that returns the number of vowels in a string str
 /**
  * count = 0,1,2 => return 2

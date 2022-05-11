@@ -1,4 +1,4 @@
-package Lesson_four_strings;
+package lesson_four_strings;
 // Given a string str and an integer x, multiply each vowel x times
 /**
  * result = "","s","saaa","saaar","saaareee"

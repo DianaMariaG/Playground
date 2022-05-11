@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MultiplyMatrices {
     public static void main(String[] args) {
         int[][] matrix1 = new int[][] { {1,5}, {2,3}, {1,7} };
-        int[][] matrix2 = new int[][] { {1,2,3,7}, {5,2,8,1} };
+        int[][] matrix2 = new int[][] { {1,2,3}, {5,2,8} };
         System.out.println(Arrays.deepToString(multiplyMatrices(matrix1, matrix2)));
 
     }
